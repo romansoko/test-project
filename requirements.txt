@@ -1,0 +1,24 @@
+# Install pytorch 2.01 + latest apex, refer to the readme of this repo
+numpy==1.25.0
+aim==3.17.2
+pydantic
+jsonlines
+datasets
+py-cpuinfo
+pynvml
+deepspeed==0.9.5
+absl-py
+nltk
+rouge-score
+einops
+# need the latest versions of bitsandbytes, transformers, peft, accelerate
+#transformers @ git+https://github.com/huggingface/transformers.git@e75cb0cb3c5fef887abea6f099252e59a659af9d
+transformers==4.33.1
+scipy==1.11.1
+#peft @ git+https://github.com/huggingface/peft.git@e06d94ddeb6c70913593740618df76908b918d66
+peft
+bitsandbytes==0.40.2
+accelerate @ git+https://github.com/huggingface/accelerate.git@cafc7f785f25718b992d2e63d972f3d22b72617b
+ibm-generative-ai==0.3.2  # for pydantic<2.0.0
+chardet
+ipdb
