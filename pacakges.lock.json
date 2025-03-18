@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dependencies": {
+    "Serilog.AspNetCore": {
+      "resolved": "4.1.0",
+      "contentHash": "sha512-3Tn...real-hash...",
+      "dependencies": {
+        "Serilog": "2.10.0",
+        "Serilog.Extensions.Logging": "3.1.0",
+        "Serilog.Settings.Configuration": "3.3.0"
+      }
+    },
+    "Serilog": {
+      "resolved": "2.10.0",
+      "contentHash": "sha512-9fG...real-hash..."
+    },
+    "Serilog.Extensions.Logging": {
+      "resolved": "3.1.0",
+      "contentHash": "sha512-K2b...real-hash..."
+    },
+    "Serilog.Settings.Configuration": {
+      "resolved": "3.3.0",
+      "contentHash": "sha512-8Lm...real-hash..."
+    }
+  }
+}
