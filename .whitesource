@@ -1,3 +1,6 @@
 {
-  "settingsInheritedFrom": "romansoko/whitesource-config@main"
+  "settingsInheritedFrom": "romansoko/whitesource-config@main",
+  "scanSettings": {
+    "javaVersion": "21"
+  }
 }
